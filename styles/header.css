@@ -10,3 +10,7 @@
 .container_botão:checked~.container_rotulo>.cabeçalho_menu-hamburguer {
   beckground-image: url("../Menu Aberto.svg");
 }
+
+.container_botao:checked~.container_rotulo{
+  background: var(--azul-degrade);
+}
